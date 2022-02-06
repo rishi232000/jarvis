@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J.A.R.V.I.S</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <audio src="onload.wav" id="sound"></audio>
+
+    <h2 style="text-align: center;margin-top: 1%;font-size: 40px;">Hello I'm J.A.R.V.I.S</h2>
+
+    <div class="machine">
+        <div class="clock cont">
+            <img src="clock.jpg" alt="" class="icon"><!--add clock image-->
+            <p id="time"></p>
+        </div>
+
+        <div class="internet cont">
+            <img src="online.png" alt="" class="icon">  <!--add internet image-->
+            <p id="net"></p>
+        </div>
+
+        <div class="battery cont">
+            <img src="batttery.png" alt="" class="icon"><!--add battery image-->
+            <p id="bat"></p>
+        </div>
+
+        <div class="temp">
+            <p class="location"></p>
+            <p class="country"></p>
+            <p class="weatherT"></p>
+            <p class="weatherD"></p>
+            <img src="" alt="" id="weatherIcon">
+            <p class="oTemp"></p>
+            <p class="feelLikeTemp"></p>
+            <p class="minT"></p>
+            <p class="maxT"></p>
+
+        </div>
+
+        <div class="calender">
+            <p class="month"></p>
+            <p class="day"></p>
+            <p class="date"></p>
+            <p class="year"></p>
+        </div>
+
+        <img src="iron body.gif" alt="iron man avtar" id="iron_man"><!--add iron man gif image-->
+        <img src="heart.gif" alt="iron man heart" id="heart"><!--add iron man heart image-->
+    </div>
+
+    <div id="start_jarvis_btn" title="start jarvis">
+       <!-- <img src="jarvis.gif" alt=""><!--add start button image-->
+    </div>
+
+    <div class="jarvis_setup in_middle">
+        <label for="">Your Name</label><br>
+        <input type="text" id="name">
+        <br>
+        <label for="">Your Bio</label><br>
+        <input type="text" id="bio">
+        <br>
+        <label for="">Your Location</label><br>
+        <input type="text" id="location">
+        <br>
+        <label for="">Your Instagram Profile</label><br>
+        <input type="text" id="instagram">
+        <br>
+        <label for="">Your Github Profile</label><br>
+        <input type="text" id="github">
+        <br>
+        <label for="">Your Twitter Profile</label><br>
+        <input type="text" id="twitter">
+        <br>
+        <button id="sub_btn">Submit</button>
+    </div>
+
+    <div class="messages"></div>
+
+    <div class="commands in_middle"></div>
+
+
+    <button id="start" title="start jarvis">Start
+    </button>
+    <button id="stop">Stop</button>
+    <button id="speak" title="check whether the speaker is interface"></button>
+    
+
+    <script src="file.js"></script>
+</body>
+</html>
